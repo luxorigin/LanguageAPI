@@ -19,13 +19,13 @@ trait Translatable
         return new LanguageAPI();
     }
 
-    public function translate(Translate $translate): void
+    public function translate(Translate $translate): string
     {
-        $this->getLanguage()->resolve($translate);
+        return $this->getLanguage()->resolve($translate);
     }
 
-    public function resolve(string $key, array $parameters = []): void
+    public function resolve(string $key, array $parameters = []): string
     {
-        $this->getLanguage()->resolve(new Translate($key, $parameters));
+        return $this->getLanguage()->resolve(new Translate($key, $parameters));
     }
 }

@@ -52,7 +52,7 @@ final class LanguageHandler
 
     public static function getLanguage(): array
     {
-        return self::$languages[self::$plugin->getName()];
+        return self::$languages[self::getRegistered()->getName() ?? ""];
     }
 
     public function isRegistered(): bool
