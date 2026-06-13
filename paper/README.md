@@ -3,9 +3,7 @@
 ```java
 @Override
 public void onEnable() {
-
     LangueageAPIHandler.register(this);
-
 }
 ```
 
