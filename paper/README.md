@@ -21,11 +21,11 @@ player.sendMessage(
 
 ```yaml
 Language file:
-hello: "こんにちは"
+hello: "Hello World"
 ```
 Output:
 
-こんにちは
+Hello World
 Placeholder
 
 ```yaml
