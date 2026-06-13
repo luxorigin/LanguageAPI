@@ -51,6 +51,3 @@ Output:
 안녕하세요 Steve
 Build
 ```
-Output:
-
-Hello Aiden
